@@ -1,0 +1,22 @@
+# Virtual Environments
+venv/
+env/
+.env
+
+# Python internals
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# THE BIG ONE: Ignore the large similarity matrix
+# This file is 176MB and will crash your GitHub push
+models/similarity.pkl
+
+
+# OS specific files
+.DS_Store
+Thumbs.db
